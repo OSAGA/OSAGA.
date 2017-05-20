@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Capabilities version="1.0.0" xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
-  <ServiceMetadataURL xlink:href="http://localhost/wmts/1.0.0/WMTSCapabilities.xml"/>
+  <ServiceMetadataURL xlink:href="https://osaga.github.io/castilla"/>
   <ows:ServiceIdentification>
     <ows:ServiceType>OGC WMTS</ows:ServiceType>
     <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
@@ -29,7 +29,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z0to19</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://localhost/wmts/osm/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+      <ResourceURL format="image/png" resourceType="tile" template="https://osaga.github.io/castilla/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
     <Layer>
       <ows:Identifier>osm_2</ows:Identifier>
@@ -45,7 +45,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z0to19</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/png" resourceType="tile" template="http://localhost/wmts/osm/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+      <ResourceURL format="image/png" resourceType="tile" template="https://osaga.github.io/castilla{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
     <Layer>
       <ows:Identifier>castilla</ows:Identifier>
@@ -66,7 +66,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z8to16</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpeg" resourceType="tile" template="http://localhost/tileserver/castilla/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
+      <ResourceURL format="image/jpeg" resourceType="tile" template="https://osaga.github.io/castilla/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
     </Layer>
     <TileMatrixSet>
       <ows:Identifier>z8to16</ows:Identifier>
